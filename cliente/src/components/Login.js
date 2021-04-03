@@ -59,7 +59,7 @@ const Login = ({history}) => {
         return false;
     }
     return (
-        <div className="container text-center mt-5">
+        <div className="container text-center mt-5 shadow-lg p-3 mb-5 bg-body rounded">
             <h1>Login</h1>
             <form onSubmit={login}>
                 <div className="mb-3 row">
