@@ -37,7 +37,7 @@ const Info = ({history}) => {
             <button onClick={()=>history.goBack()} className="btn btn-primary">Log Out</button>
             <form onSubmit={getUserInfo} className="mt-5">
                 <div className="mb-3 row shadow-lg p-3 mb-5 bg-body rounded">
-                    <label className="col-sm-6 col-form-label">Ingresa tu Id para ver tu información</label>
+                    <label className="col-sm-6 col-form-label">Ingresa un Id para ver su información</label>
                     <div className="col-sm-6">
                         {/* Imput para capturar el id del usuario */}
                         <input type="text" onChange={(e)=> setForm({...form, id:e.target.value})} className="form-control" value={id}/>
